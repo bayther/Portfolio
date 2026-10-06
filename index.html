@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a class="logo" href="#home">MyPortfolio</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">WELCOME TO MY WEBSITE</p>
+      <h1>Hi, I'm <span>Baraa.</span></h1>
+      <p class="intro">I'm a student learning how to build websites and create projects with technology.</p>
+      <a class="button" href="#projects">See my project</a>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>About Me</h2>
+      <p>I'm a Grade 11 student interested in computers, technology, and cars. I'm learning HTML and CSS to understand how websites are made. This portfolio is a place to share my work and show what I learn.</p>
+    </section>
+
+    <section class="section projects" id="projects">
+      <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
+      <h2>My Project</h2>
+      <article class="project-card">
+        <img src="Pictures/project.png" alt="Screenshot of my project" onerror="this.style.display='none'">
+        <div class="project-info">
+          <h3>My First Project</h3>
+          <p>This is a project I worked on. I'm using this website to practise web design and share my progress.</p>
+          <span class="tag">HTML &amp; CSS</span>
+        </div>
+      </article>
+      <p class="hint">Replace the sample project image with a screenshot of one of your own projects in the Pictures folder.</p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Contact</h2>
+      <p>Thanks for checking out my portfolio!</p>
+    </section>
+  </main>
+
+  <footer>© 2026 My Portfolio · Made with HTML and CSS</footer>
+</body>
+</html>
